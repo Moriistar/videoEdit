@@ -267,7 +267,7 @@ JPG, PNG, WEBP, GIF, BMP, TIFF, SVG, HEIC
 2️⃣ ویدیو را ارسال کنید (حتی 2TB!)
 3️⃣ در کمتر از 60 ثانیه آماده!
 
-🚀 **بنر خود را بفرستید!**
+ **بنر خود را بفرستید!**
 """
     
     keyboard = [
@@ -727,7 +727,7 @@ async def handle_wrong_content(update: Update, context: ContextTypes.DEFAULT_TYP
 
 def setup_bot():
     """Quick bot setup"""
-    print("😈 Ultra Fast Video Banner Bot Setup (v2.0)")
+    print(" Ultra Fast Video Banner Bot Setup (v2.0)")
     print("=" * 45)
     print("⚡ Speed: 15-60 seconds processing")
     print(" Support: Up to 2TB files (NEW!)")
@@ -752,7 +752,7 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     if update and update.effective_message:
         try:
             await update.effective_message.reply_text(
-                "❌ **خطا!** 🔄 /start کنید\n\n"
+                "❌ **خطا!**  /start کنید\n\n"
                 " برای فایل‌های بزرگ، لطفاً به صورت داکیومنت بفرستید"
             )
         except:

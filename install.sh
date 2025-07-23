@@ -539,8 +539,6 @@ async def handle_video(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
         except:
             pass
 
-# بقیه توابع مشابه اما با smart_download
-
 async def handle_document(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle document upload"""
     user_id = update.effective_user.id

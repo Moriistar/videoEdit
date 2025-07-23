@@ -52,17 +52,17 @@ JPG, JPEG, PNG, WEBP, GIF, BMP, TIFF, SVG, HEIC
 ### 1. نیازمندی‌های سیستم
 
 ```bash
-# Ubuntu/Debian
+### Ubuntu/Debian
 sudo apt update
 sudo apt install python3 python3-pip ffmpeg
 
-# CentOS/RHEL
+### CentOS/RHEL
 sudo yum install python3 python3-pip ffmpeg
 
-# macOS
+### macOS
 brew install python ffmpeg
 
-# Windows
+### Windows
 # دانلود Python از python.org
 # دانلود FFmpeg از ffmpeg.org
 
@@ -72,14 +72,14 @@ cd ultra-fast-video-banner-bot
 3. نصب وابستگی‌ها
 # ایجاد محیط مجازی (پیشنهادی)
 python3 -m venv venv
-source venv/bin/activate  # Linux/macOS
+source venv/bin/activate  ### Linux/macOS
 # یا
-venv\Scripts\activate     # Windows
+venv\Scripts\activate     ### Windows
 
 # نصب پکیج‌ها
 pip install -r requirements.txt
 
-🎯 کد کامل آماده است!
+###🎯 کد کامل آماده است!
 فایل‌های ایجاد شده:
 
 ✅ main.py - کد اصلی بات (حرفه‌ای و کامل)
@@ -87,7 +87,7 @@ pip install -r requirements.txt
 ✅ requirements.txt - وابستگی‌ها
 ✅ README.md - مستندات کامل فارسی
 ✅ Dockerfile - اجرای داکر (اختیاری)
-برای اجرا:
+###برای اجرا:
 
 pip install -r requirements.txt
 python config.py (تنظیمات)
